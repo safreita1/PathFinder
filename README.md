@@ -4,7 +4,7 @@ This research is an effort to develop visual-graphic interfaces for sense-making
 
 # How to Run:
 
-The program can be run from the command line, however, it takes many variables. The suggested method of running it is to use the web platform at: path-finder.io
+The program can be run from the command line, however, it takes many variables. The suggested method of running it is to use the web platform at: [Path Finder](www.path-finder.io) 
 
 If you want to run it locally here is how:
 
@@ -106,10 +106,10 @@ Each of the variables has a defined range and number of types it takes, some of 
     'removeEdges5': Positive Integer, '-1' represents an empty value
     'searchReduction': true or false
     
-(3) Additional information on parameters can be found here: http://path-finder.io/instructions.html. If more information on a variable is needed, please check the code.
+(3) Additional information on parameters can be found on the insutrctions page: [Instructions](http://www.path-finder.io/instructions.html). If more information on a variable is needed, please check the code.
 
 # Datasets:
 
-Pre-loaded datasets are from the Stanford SNAP collection (http://snap.stanford.edu/data/index.html), including: DBLP, Youtube and LiveJournal.
+Pre-loaded datasets are from the [Stanford SNAP](http://snap.stanford.edu/data/index.html) collection, including: DBLP, Youtube and LiveJournal.
 
-DBLP w/ names is the DBLP dataset which uses names instead of integers to represent nodes. Name information was taken from the DBLP site (http://dblp.uni-trier.de/faq/How+can+I+download+the+whole+dblp+dataset.html) and modified for use in the PathFinder program.
+DBLP w/ names is the DBLP dataset which uses names instead of integers to represent nodes. Name information was taken from the DBLP webpage ([Uni Trier](http://dblp.uni-trier.de/faq/How+can+I+download+the+whole+dblp+dataset.html)) and modified for use in the PathFinder program.
