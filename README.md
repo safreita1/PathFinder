@@ -6,7 +6,11 @@ This project is an effort to develop the algorithmic tools necessary to analyze 
 
 The program can be run from the command line, however, it takes many variables. The suggested method of running it is to use the web platform at: [Path Finder](http://www.path-finder.io) 
 
-If you want to run it locally here is how:
+If you want to run it locally, the instructions are detailed below:
+
+(0) This program was built to run in a Linux Ubuntu environment and assumes that there exists a directory, '/path_finder_files', with two sub-folders 'user_adj_lists' and 'user_files'. To run in Windows, change the location of the output files in the source code to a directory of your choice. These folders are where the program output will be located.
+
+Three files will be created each time the program is successfully run. (a) An adjacency list file containing edge pairs and (b) two DOT files for visualizing the network. 
 
 (1) Compile using this (fill in the path location): g++ -o PathFinder /PathFinder/Source_Code/*.cpp -I /PathFinder/Header_Files/ -pthread -std=c++11 -O3
 
@@ -106,7 +110,9 @@ Each of the variables has a defined range and number of types it takes, some of 
     'removeEdges5': Positive Integer, '-1' represents an empty value
     'searchReduction': true or false
     
-(3) Additional information on parameters can be found on the insutrctions page: [Instructions](http://www.path-finder.io/instructions.html). If more information on a variable is needed, please check the code.
+(3) Create a visualization using GraphViz in the Ubuntu environment the following way: /usr/gin/sfdp -Goverlap=false -Tpng 'DOT file (no quotes)' -o 'name of file.png (no quotes)' 
+
+(4) Additional information on parameters can be found on the insutrctions page: [Instructions](http://www.path-finder.io/instructions.html). If more information on a variable is needed, please check the code.
 
 # Datasets:
 
