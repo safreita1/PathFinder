@@ -14,7 +14,7 @@ Three files will be created each time the program is successfully run. (a) An ad
 
 (1) Compile using this (fill in the path location): g++ -o PathFinder /PathFinder/Source_Code/*.cpp -I /PathFinder/Header_Files/ -pthread -std=c++11 -O3
 
-(2) Run program, this is an example query: ./PathFinder "Path to dataset here, leave quotes." KSSP Alin_Deutsch Mary_F._Fernandez -1 -1 -1 1 2 20 10 5 20 10 5 2 20 10 5 2 299315610694 true 2 12 -1 -1 -1 -1 -1 0 20 10 5 20 10 5 2 0 -1 -1 -1 -1 -1 false
+(2) Run program, this is an example query: ./PathFinder "Path to dataset here, leave quotes." KSSP Alin_Deutsch Mary_F._Fernandez -1 -1 -1 1 2 20 10 5 20 10 5 2 20 10 5 2 299315610694 true 2 12 -1 -1 -1 -1 -1 0 20 10 5 20 10 5 2 -1 -1 -1 -1 -1 false false
 
 Below are the corresponding variables that define the input to the program, in order:
 
@@ -62,6 +62,7 @@ Below are the corresponding variables that define the input to the program, in o
     'removeEdges4': '-1',
     'removeEdges5': '-1',
     'searchReduction': 'false',
+    'useKSSP': 'false',
     
 Each of the variables has a defined range and number of types it takes, some of which depend on each other. Below are the possible ranges. Note: these are not being strictly defined but to be used as a reference point:
 
@@ -109,6 +110,7 @@ Each of the variables has a defined range and number of types it takes, some of 
     'removeEdges4': Positive Integer, '-1' represents an empty value
     'removeEdges5': Positive Integer, '-1' represents an empty value
     'searchReduction': true or false
+    'useKSSP': true or false
     
 (3) Create a visualization using GraphViz in the Ubuntu environment the following way: /usr/gin/sfdp -Goverlap=false -Tpng 'DOT file (no quotes)' -o 'name of file.png (no quotes)' 
 
