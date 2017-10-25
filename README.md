@@ -1,10 +1,10 @@
 # PathFinder
 
-This research is an effort to develop visual-graphic interfaces for sense-making of large networks. The goal is to create an algorithmic model and prototype that will allow researchers to study and analyze the hidden patterns in a wide range of networks by identifying and characterizing communities and connectivity between a set of pre-marked nodes within large networks.
+This project is an effort to develop the algorithmic tools necessary to analyze large networks in the context of two or more seed nodes. The first goal was to develop the core algorithms necessary for network connectivity analysis, followed by the creation of a web platform to facilitate easy access and intuitive interactions with the network visualizations.
 
 # How to Run:
 
-The program can be run from the command line, however, it takes many variables. The suggested method of running it is to use the web platform at: [Path Finder](www.path-finder.io) 
+The program can be run from the command line, however, it takes many variables. The suggested method of running it is to use the web platform at: [Path Finder](http://www.path-finder.io) 
 
 If you want to run it locally here is how:
 
