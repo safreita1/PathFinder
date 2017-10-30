@@ -2,9 +2,11 @@
 
 This project is an effort to develop the algorithmic tools necessary to analyze large networks in the context of two or more seed nodes. The first goal was to develop the core algorithms necessary for network connectivity analysis, followed by the creation of a web platform to facilitate easy access and intuitive interactions with the network visualizations.
 
+![visual1](https://user-images.githubusercontent.com/16739132/32156581-930823f4-bcfb-11e7-9559-76d503e72551.jpg)
+
 # How to Run:
 
-The program can be run from the command line, however, it takes many variables. The suggested method of running it is to use the web platform at: [Path Finder](http://www.path-finder.io) 
+The program can be run from the command line, however, it takes many variables. The suggested method of running it is to use the web platform at: [PathFinder](http://www.path-finder.io) 
 
 If you want to run it locally, the instructions are detailed below:
 
